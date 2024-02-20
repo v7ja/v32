@@ -1,0 +1,8 @@
+from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
+import os
+app_id = 20223538
+app_hash = "4984257087b565cc0b1dafc7be4d23c4"
+session = "BAE9cVgAvXIyiDRhOSrJ9hPLVyfcYk4C1YXozfRegxgY-051_Zo1J8qC36XBB746i_sxUhybqT1c9RSQjgOWE6Z_A2-f6dyWfcM9JkcF1NP1ougJsec6WAeWvpaCS0BjcuKuO-Jjlq6VL6kOJJTIM3ju8uuTLexZLorzg61U2bxHyfxf5li8skMIquHGSZlwpjmZ_HemKJOVuhhYo09xau_T_clcBFI6iIUZrspexI3abC8J7wcIZzlv7BEUa8wwjp7sD3D4XKC69x7Ovxw0xmSVG56rTKlnXT3jwaXV02QPbD87nlUVluHlp6YRVV5wzxdlKofYRqfCI7rrpASKz1wlDys8mwAAAAGUMZ90AA"
+StrPython = TelegramClient(StringSession(session), app_id, app_hash)
+StrPython.start()
